@@ -31,7 +31,7 @@ locals {
       visibility         = "public"
     }
 
-    "fem-eci-service" = {
+    "fem-eci-service-api" = {
       description        = "Example product service"
       gitignore_template = "Go"
       name               = "fem-eci-service"
