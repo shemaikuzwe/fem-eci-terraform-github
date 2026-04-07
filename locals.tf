@@ -30,7 +30,14 @@ locals {
       topics             = ["frontend-masters", "terraform"]
       visibility         = "public"
     }
-  "fem-eci-service" = {
+    "fem-eci-terraform-product-service" = {
+      description        = "Automation for product services"
+      gitignore_template = "Terraform"
+      name               = "fem-eci-terraform-product-service"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "public"
+    }
+    "fem-eci-service" = {
       description        = "Example product service"
       gitignore_template = "Go"
       name               = "fem-eci-service"
